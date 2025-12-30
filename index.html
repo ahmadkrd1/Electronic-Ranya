@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electronic Rania | ماڵپەڕی فەرمی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splash-screen"></div>
+
+  <!-- Main Content -->
+  <div id="main-content" style="display:none;">
+
+    <header class="site-header">
+      <img src="peshnga1.jpg" alt="Pshtiwan Group Logo" class="header-logo">
+      <h1>بەخێربێن بۆ Electronic Rania</h1>
+      <p></p>
+      <p> </p>
+
+      
+      <p>لێرەوە دەتوانیت بگەی بە هەموو پلاتفۆرمە کۆمەڵایەتییەکانمان.</p>
+    </header>
+
+    <section class="social-links">
+      <h2>پەیوەندیمان پێوە بکە</h2>
+
+      <div class="buttons-container">
+
+   <a href="https://maps.app.goo.gl/sdJ4uFtKS37B3wN97" class="social-btn location">
+    <img src="location.png.png"> ناونیشانی دوکان
+   </a>
+
+        <a href="https://wa.me/9647501085042" class="social-btn whatsapp">
+          <img src="whatsapp-icon.png"> WhatsApp
+        </a>
+
+        <a href="https://www.facebook.com/share/1AaVmBbz8d/" class="social-btn facebook">
+          <img src="facebook-icon.png"> Facebook
+        </a>
+
+        <a href="https://www.tiktok.com/@wasta.daryas?is_from_webapp=1&sender_device=pc" class="social-btn tiktok">
+          <img src="tiktok-icon.png"> TikTok
+        </a>
+
+        <a href="https://www.instagram.com/to_chand_lebwrdae_parwarenm?igsh=OGlkOWlvMzM1eDh6" class="social-btn instagram">
+          <img src="instagram-icon.png"> Instagram
+        </a>
+      </div>
+
+   <!-- Mobile Numbers centered -->
+<div class="mobile-numbers-center">
+  <h3>ژمارەی مۆبایل</h3>
+  <p>📱 <a href="tel:+964 750 108 5042">+964 750 108 5042</a></p>
+</div>
+
+    </section>
+
+    <footer>
+      <p>&copy; هەموو مافەکانی پارێزراوە - Electronic Rania</p>
+    </footer>
+
+  </div>
+
+  <script>
+    window.addEventListener('load', () => {
+      const splash = document.getElementById('splash-screen');
+      const main = document.getElementById('main-content');
+
+      setTimeout(() => {
+        splash.style.opacity = '0';
+        setTimeout(() => {
+          splash.style.display = 'none';
+          main.style.display = 'block';
+        }, 500);
+      }, 2000);
+    });
+  </script>
+
+</body>
+</html>
